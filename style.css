@@ -1,0 +1,43 @@
+:root {
+    --primary-color: #2c3e50;     /* Dark Blue */
+    --secondary-color: #f2f2f2;   /* Light Gray */
+    --accent-color: #e74c3c;      /* Red */
+  }
+
+body{
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+.header{
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.library{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.container{
+    display:grid;
+    gap: 10px;
+    width: 500px;
+    height: 300px;
+}
+
+.add-book-button{
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
